@@ -1,0 +1,21 @@
+
+To install Scrapy on your local machine, follow these steps:
+
+1.Open the terminal or command prompt on your machine.
+2.If you're using Python 3, use the command "pip3 install scrapy" to install Scrapy. If you're using Python 2, use the command "pip install scrapy".
+3. Wait for the installation to complete. Scrapy and its dependencies will be installed automatically.
+To verify that Scrapy has been installed correctly, use the command "scrapy version" in the terminal. You should see the version number of Scrapy printed to the console.
+
+To run the code:
+
+1. Open the terminal or command prompt on your local machine.
+2. Navigate to the directory where you want to clone the repository.
+   Use the command "git clone https://github.com/SauravUpadhyaya/CSDA-Index.git" to clone the repository to your local machine.
+3. Change the directory to "CSDA/CSDA-Index/csdascraping" using the command "cd CSDA/CSDA-Index/csdascraping".
+Once you are in the right directory, use the command "scrapy crawl urls -o output.json" to run the spider and save the output to a JSON file named "output.json".
+
+Note: Make sure you have Scrapy installed on your local machine before running the command.
+
+
+Documentation (Scrapy Framework):
+https://docs.scrapy.org/en/latest/topics/spiders.html
